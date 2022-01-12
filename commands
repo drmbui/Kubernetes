@@ -3,7 +3,7 @@
    kubectl cluster-info
    kubectl get nodes
    kubectl create deployment kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcamp:v1
-    
+   kubectl get deployments 
     
     
    10  aws --profile saml --region us-east-1 cloudformation update-stack --stack-name amlPipeLine-SeatMapConfig-Inf  --template-body file://amlPipeline.yml --role-arn arn:aws:iam::351878376352:role/ADFS-STG-CustomerTechnology_AML-L4 --capabilities CAPABILITY_NAMED_IAM
