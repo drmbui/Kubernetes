@@ -1,39 +1,20 @@
-history
-    2  ls
-    3  pwd
-    4  cd ..
-    5  ls
+
     6  ual_aws_login
-    7  clear
-    8  ual_aws_login
-    9  ls
+   kubectl cluster-info
+   kubectl get nodes
+   
+    
+    
+    
    10  aws --profile saml --region us-east-1 cloudformation update-stack --stack-name amlPipeLine-SeatMapConfig-Inf  --template-body file://amlPipeline.yml --role-arn arn:aws:iam::351878376352:role/ADFS-STG-CustomerTechnology_AML-L4 --capabilities CAPABILITY_NAMED_IAM
    11  aws --profile saml --region us-east-1 cloudformation update-stack --stack-name amlPipeLine-SeatMapConfig-Inf  --template-body file://amlPipeline.yml
-   12  aws mq reboot-broker --broker-id aml-mqbroker-STG:b-f14b6c01-71c6-4faf-9437-99089cc8440f  --profile saml
-   13  aws mq reboot-broker --broker-id aml-mqbroker-STG:b-f14b6c01-71c6-4faf-9437-99089cc8440f  --profile saml
-   14  aws mq reboot-broker --broker-id aml-mqbroker-STG:b-f14b6c01-71c6-4faf-9437-99089cc8440f  --profile saml
-   15  ual_aws_login
-   16  aws mq reboot-broker --broker-id aml-mqbroker-STG:b-f14b6c01-71c6-4faf-9437-99089cc8440f  --profile saml
-   17  aws mq reboot-broker --broker-id b-f14b6c01-71c6-4faf-9437-99089cc8440f  --profile saml
-   18  aws mq reboot-broker --broker-id aml-mqbroker-STG:b-f14b6c01-71c6-4faf-9437-99089cc8440f  --profile saml
    19  aws mq reboot-broker --broker-id arn:aws:mq:us-east-1:351878376352:broker:aml-mqbroker-STG:b-f14b6c01-71c6-4faf-9437-99089cc8440f  --profile saml
    20  aws mq reboot-broker --broker-id aml-mqbroker-STG  --profile saml
-   21  aws mq list-brokerrs
-   22  aws mq list-brokers
-   23  clear
-   24  history
    25  aws mq reboot-broker --broker-id aml-mqbroker-STG:b-f14b6c01-71c6-4faf-9437-99089cc8440f
    26  aws mq reboot-broker --broker-id broker:aml-mqbroker-STG:b-f14b6c01-71c6-4faf-9437-99089cc8440f
    27  aws mq reboot-broker --broker-id b-f14b6c01-71c6-4faf-9437-99089cc8440f
-   28  clear
    29  aws mq reboot-broker --broker-id b-f14b6c01-71c6-4faf-9437-99089cc8440f
-   30  clear
-   31  ls
-   32  clear
-   33  history
-   34   ual_aws_login
    35  aws mq reboot-broker --broker-id b-f14b6c01-71c6-4faf-9437-99089cc8440f --region us-east-1
-   36   ual_aws_login
    37  aws mq reboot-broker --broker-id b-40f489aa-9b1d-4d86-b9ff-8027fd178405  --region us-east-1
    38  aws mq list-brokers
    39  aws mq list-brokers --region us-east-1
